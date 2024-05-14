@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Administracion numeracion",
+    "id": "3c766e6b-427e-48eb-8f46-e899d70cbb50",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "administracion-numeracion description"
+      },
+      "longDescription": {
+        "default": "administracion-numeracion description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "administracion-numeracion Feature",
+        "description": "The feature that activates elements of the administracion-numeracion solution.",
+        "id": "76841b0e-7f65-4fbd-a70e-f990c60d5631",
+        "version": "1.0.0.1"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/administracion-numeracion.sppkg"
+  }
+}
