@@ -709,9 +709,9 @@ class VerSolicitudes extends React.Component<IVerSolicitudesProps, any> {
                             this.state.Solicitudes.map((val:any, index:number)=>(
                                 <tr>
                                     <td>{val.ID}</td>
-                                    <td>{val.Causal.Title ? val.Causal.Title : ''}</td>
-                                    <td>{val.TipoNegocio.Title ? val.TipoNegocio.Title : ''}</td>
-                                    <td>{val.TipoRegion.Title ? val.TipoRegion.Title : ''}</td>
+                                    <td>{val.Causal ? val.Causal.Title : ''}</td>
+                                    <td>{val.TipoNegocio ? val.TipoNegocio.Title : ''}</td>
+                                    <td>{val.TipoRegion ? val.TipoRegion.Title : ''}</td>
                                     <td>{val.Author.Title}</td>
                                     <td>{val.Estado}</td>
                                     <td>
@@ -785,7 +785,7 @@ class VerSolicitudes extends React.Component<IVerSolicitudesProps, any> {
                                                 this.state.Tareas.map((val:any, index:number)=>(
                                                     <tr>
                                                         <td>{val.ID}</td>
-                                                        <td>{val.UsuarioResponsable.Title}</td>
+                                                        <td>{val.UsuarioResponsable ? val.UsuarioResponsable.Title : ''}</td>
                                                         <td>{val.Comentario}</td>
                                                         <td> {val.Estado}</td>
                                                         <td>

@@ -265,7 +265,8 @@ export default class CrearSolicitud extends React.Component<ICrearSolicitudProps
                 CausalId: thisCurrent.state.selectCausalSolicitud,	
                 TipoNegocioId:thisCurrent.state.selectTipoNegocio,
                 TipoRegionId:thisCurrent.state.selectTipoRegion,
-                Observacion:thisCurrent.state.observacion
+                Observacion:thisCurrent.state.observacion,
+                Estado:'En curso'
             }
 
             thisCurrent.Helpers.insertItemList('SolicitudesNumeracion', data)
