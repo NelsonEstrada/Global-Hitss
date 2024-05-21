@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "reportes-innovacion-client-side-solution",
+    "id": "92f66d86-2ced-4d64-9e97-8d7f4c29d659",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ReportesInnovacion description"
+      },
+      "longDescription": {
+        "default": "ReportesInnovacion description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "reportes-innovacion Feature",
+        "description": "The feature that activates elements of the reportes-innovacion solution.",
+        "id": "b037a1a5-a228-47e1-8899-bff11eae615d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/reportes-innovacion.sppkg"
+  }
+}

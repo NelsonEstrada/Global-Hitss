@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.14.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "reportes-innovacion",
+    "libraryId": "92f66d86-2ced-4d64-9e97-8d7f4c29d659",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ReportesInnovacion",
+    "solutionShortDescription": "ReportesInnovacion description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
