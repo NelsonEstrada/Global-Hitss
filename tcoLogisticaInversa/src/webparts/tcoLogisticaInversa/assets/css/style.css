@@ -1,0 +1,1003 @@
+
+.margin5{
+    margin: 5px;
+  }
+ .marginBottom10{
+  margin-bottom: 10px;
+ } 
+
+  #bodyReservas, #modal{
+    font-family: "Roboto",helvetica,sans-serif;
+  }
+  
+  #bodySolicitudes, #modal{
+    font-family: "Roboto",helvetica,sans-serif;
+  }
+  
+  div#encabezado {
+    background: #E03224;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  div#sec-contenido {
+    background: #F5F5FC;
+    min-height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  div#sec-menu {
+    background: #F5F5FC;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  div#logoApp {
+    display: inline-block;
+  }
+  
+  div#tituloApp {
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 700;
+  }
+  div#closeApp {/**/
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin-top: 0px;
+    padding-right: 5px;
+    padding-top: 1px;
+    font-weight: 200;
+  }
+  div#infoOperas {
+    width: 100%;
+    margin-top: 5px;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+  }
+  div#mensajeInfoOperas {
+    width: 65%;
+    color: rgb(80, 72, 72);
+    display: inline-block;
+    margin-top: 5px;
+    padding-right: 2px 2px 2px 2px;
+    font-weight: 500;
+    font-style: italic;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  div#funcion-nueva {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin: 5px;
+    padding: 20px 0px 20px 20px;
+    font-weight: 700;
+    min-width: 0px;
+    background: #fff;
+  }
+  
+  div#mod-usuario {
+    padding: 10px 5px 10px 10px;
+    padding-bottom: 5px;
+    background: #fff;
+  }
+  
+  div#col1-usuario, #col2-usuario {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  div#img-usuario {
+    width: 60px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  div#img-usuario img {
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  div#nombre-usuario, #rol-usuario {
+    padding: 2px;
+  }
+  
+  div#col1-usuario {
+    min-width: 400px;
+  }
+  div#col2-usuario {
+    min-width: 300px;
+    position: absolute;
+    right: 0px;
+  }
+  div#sol-nueva {
+    min-width: 300px;
+    position: absolute;
+    right: 0px;
+  }
+  
+  div#nombre-usuario {
+    margin-top: 5px;
+    padding: 2px 2px 2px 5px;
+    font-weight: 500;
+    vertical-align: middle;
+  }
+  div#rol-usuario {
+    font-style: italic;
+    font-weight:bold;
+  }
+  
+  input.btn1 {
+    background: #187385;
+    color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #187385;
+    box-shadow: none;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  input.btn1:hover {
+    background: #fff;
+    color: #187385;
+    font-weight: bold;
+  }
+  
+  input.btn2 {
+    background: #fff;
+    color: #CD1D1F;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 5px 25px;
+    border: 1px solid #CD1D1F;
+    box-shadow: none;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  input.btn2:hover {
+    background: #CD1D1F;
+    color: #fff;
+  }
+  
+  input.btn3 {
+    background: #E03224;
+    color: #ffffff;
+    margin: 2px 3px 4px 1px ;
+    border-radius: 7px;
+    padding: 5px;
+    border: 1px solid #E03224;
+    box-shadow: none;
+    font-size: 11px;
+    cursor: pointer;
+    font-weight: 400;
+    float: left;
+  }
+  
+  input.btn3:hover {
+    background: #CD1D1F;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+  }
+  
+  input.btnClosed { /**/
+    min-width: 2em;
+    background: #E03224;
+    color: #ffffff;
+    margin: 1px 1px 1px 1px ;
+    border-radius: 7px;
+    padding: 2px;
+    border: 1px solid #E03224;
+    box-shadow: none;
+    font-size: 11px;
+    cursor: pointer;
+    font-weight: 100;
+    float: right;
+    
+  }
+  
+  input.btnClosed:hover {
+    background: #CD1D1F;
+    /*color: #fff;*/
+    font-size: 11px;
+    font-weight: bold;
+    border: 1px solid #E03224;
+  }
+  
+  .filaSeleccionada{
+    box-shadow: inset 0 0 0 9999px #58a8b8;
+    color: #fff;
+  }
+  
+  div#modal {
+    background: rgb(179 179 179 / 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: flex;
+  }
+  div#modal2 {
+    background: rgb(179 179 179 / 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: flex;
+  }
+  
+  div#content-modal {
+    background: #fff;
+    width: 80%;
+    max-height: 80%;
+    display: flex;
+    margin:10%  auto;
+    position: relative;
+    overflow-y: auto;
+    border-radius: 5px;
+  }
+  div#data-modal {
+    width: 100%;
+  }
+  
+  div#content-modalSolicitud {
+    background: #fff;
+    width: 90%;
+    /*max-height: 90%;*/
+    display: flex;
+    margin: 3% auto;
+    position: relative;
+    height: fit-content;
+    border: 1px solid #ccc;
+  }
+  
+  div#content-modalLista {
+    background: #fff;
+    width: 70%;
+    max-height: 90%;
+    display: flex;
+    margin:5%  auto;
+    position: relative;
+    /*overflow-y: auto;*/
+  }
+  
+  .table-modal{
+    overflow-y: auto;
+  }
+  
+  div#content-modalUsuario {
+    background: #fff;
+    width: 60%;
+    max-height: 90%;
+    display: flex;
+    margin:5% auto;
+    position: relative;
+    overflow-y: auto;
+  }
+  
+  div#content-modalRol {
+    background: #fff;
+    width: 70%;
+    max-height: 90%;
+    display: flex;
+    margin:5%  auto;
+    position: relative;
+    overflow-y: auto;
+  }
+  
+  .modal-usuarios  {
+    max-width: 600px;
+  }
+  .modal-CargaMasivas  {
+    max-width: 500px;
+  }
+  
+  div#formDatos {
+    padding: 10px 20px 5px 20px;
+    font-size: 14px;
+  }
+  div#formDatosHead {
+    padding: 20px 20px 5px 20px;
+    font-size: 20px;
+  }
+  div#formDatosRespuesta {
+    padding: 5px 20px 5px 20px;
+    margin: 15px;
+    font-size: 14px;
+  }
+  div#formDatosUsuario {
+    background: #f9f9f9;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+  }
+  
+  div#formDatos input[type="checkbox"] {
+    margin-left: 15px;
+    vertical-align: text-top;
+  }
+  
+  div#formDatos .fila {
+    padding: 10px;
+  }
+  /*div#formDatos  .campo {
+    width: calc(100% - 100px);
+  }*/
+  div#formDatos .campo {
+    width: calc(80% - 100px);
+  }
+  div#formDatos .nombreCampo {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+  }
+  
+  div#formDatos .nombreCampo2 {
+    display: inline-block;
+    /*float: right;
+    text-align: center;*/
+    vertical-align: top;
+    width: 200px;
+  }
+  div#formDatos .nombreCampoMod2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+  }
+  div#formDatos .nombreCampo2R {
+    display: inline-block;
+    /*float: right;*/
+    text-align:right;
+    vertical-align: top;
+    width: 100px;
+    font-style: italic;
+  }
+  
+  div#formDatos .campo {
+    display: inline-block;
+    vertical-align: top;
+  }
+  div#formDatos .campoMasivo {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  div#formDatos .info {
+    width: calc(100% - 50px);
+    display: inline-block;
+    vertical-align: top;
+    font-size: 10px;
+    margin-left: 40px;
+  }
+  
+  div#sec-btn {
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+    background: #f9f9f9;
+  }
+  div#sec-BtnAdjunto {
+    width: 100%;
+    text-align: center;
+    padding: 1px 20px 1px 20px;
+    box-sizing: border-box;
+  }
+  div#sec-adjunto {
+    width: 100%;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    box-sizing: border-box;
+  }
+  
+  div#sec-adjunto .CListaAdjuntos {
+    background: #f9f9f9;
+    padding: 5px 20px 5px 20px;
+    font-size: 13px;
+    text-align: initial;
+    font-style: italic;
+  }
+  
+  div#CListaAdjuntos {
+    background: #f9f9f9;
+    padding: 5px 20px 5px 20px;
+    font-size: 13px;
+    text-align: initial;
+    font-style: italic;
+  }
+  
+  div#formDatos input[type='text'], 
+  div#formDatos input[type='number'], 
+  div#formDatos input[type='date'],
+  div#formDatos input[type='date'],
+  div#formDatos input[type='file'], 
+  div#formDatos input[type='email'], 
+  div#formDatos select, div#formDatos textarea {
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #CCCCCC;
+    box-shadow: 0px 0px 3px #98979775;
+    width: 80%;
+    box-sizing: border-box;
+    margin-left:10px;
+  }
+  
+  div#formDatos input[type='number'], div#formDatos input[type='date']{
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #CCCCCC;
+    box-shadow: 0px 0px 3px #98979775;
+    border: 1px solid #a19f9d;
+    box-sizing: border-box;
+    margin-left:10px;
+  }
+  
+  div#formDatos input[type="checkbox"] {
+    accent-color: #005F3A;
+  }
+  div#formDatos textarea {
+    width: 110%;
+    min-height: 90px;
+    padding: 2px;
+    margin-left:2px;
+  }
+  
+  div#formDatos input.sp-peoplepicker-editorInput[type=text] {
+    box-shadow: none !important;
+    border: 0px solid #a19f9d;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #98979775;
+  }
+  div#formDatos input.sp-peoplepicker-topLevel[type=text] {
+    box-shadow: none !important;
+    border: 0px solid #a19f9d;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #98979775;
+  }
+  
+  .sp-peoplepicker-editorInput {
+    box-shadow: none !important;
+    padding: 5px;
+    width: 10%;
+  }
+  .sp-peoplepicker-topLevel {
+    width: 80% !important;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-color: #CCCCCC;
+    box-shadow: 0px 0px 3px #98979775;
+    padding: 1px 25px 1px 0px;
+  }
+  
+  .sp-peoplepicker-initialHelpText {
+  
+    left: 12px;
+    position: absolute;    
+    font-size: 10px;
+  }
+  
+  
+  img.icono-advertencia {
+    max-width: 40px;
+  }
+  
+  .msj1 {
+    text-align: center;
+  }
+  .tituli-sec-form {
+    text-align: center;
+    padding: 5px;
+    background: #E03224;
+    color: #FFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  div#formDatos .fila1 {
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 95%;
+  }
+  div#formDatos .fila2 {
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+  }
+  div#formDatos .fila1R {
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 95%;
+  }
+  div#formDatos .fila1Tab {
+    padding: 2px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 95%;
+  }
+  div#formDatos .fila2R {
+    padding: 10px;
+    /*display: inline-block;*/
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: top;
+    width: 46%;
+    font-style: italic;
+  }
+  div#formDatos .fila2I {
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  div#formDatos .fila3 {
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 95%;
+  }
+  
+  div#formDatosUsuario .fila2R {
+    padding: 10px;
+    /*display: inline-block;*/
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: top;
+    width: 20%;
+    font-style: italic;
+  }
+  div#formDatosUsuario .fila2I {
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  div#sec-adjunto .fila1 {
+    padding: 1px 10px 1px 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 95%;
+  }
+  
+  div#sec-adjunto .nombreCampo {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+  }
+  
+  div#sec-adjunto .campo {
+    width: calc(80% - 100px);
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  div#content-modal {
+    max-width: 800px;
+  }
+  div#content-modalMasivo {
+    max-width: 500px;
+  }
+  
+  table#datosUsuario td {
+    margin: 5px;
+    padding: 5px;
+    background: #fff;
+  }
+  table#datosUsuario {
+    /*display: inline-block;
+    position: absolute;*/
+    left: 0px;
+    margin: 5px;
+    padding: 5px;
+    background: #fff;
+  }
+  
+  .btnDesabilitado{
+  border-color:silver !important;
+  color:silver !Important;
+  }
+  /*****/
+  
+  .ms-breadcrumb-box {
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+  .ms-belltown-authenticated .ms-belltown-searcharea {
+    padding: 50px;
+  }
+  
+  #siteIcon {
+    min-width: 64px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    margin: 15px 30px 15px auto;
+    float: left;
+  }
+  
+  .ms-belltown-pageName {
+    display: none;
+  }
+  
+  .contentwrapper {
+    margin: 5px 5% 20px 5%;
+    min-width: 921px;
+  }
+  .ms-pub-contentLayout{
+    /*background-color: rgba(150, 21, 21, 0.9);*/
+    background-color: rgba(255, 255, 255, 0.90);
+    display: table-cell;
+    min-width: 630px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  div.article, div.welcome {
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }
+  
+  .ms-rtestate-field p, p.ms-rteElement-P {
+    margin: 0px 0px 1px 0px;
+    line-height: 0.5;
+  }
+  .article-content, .welcome-content {
+    margin: 0px 0px 1px 0px;
+  }
+  
+  .ms-webpart-chrome-title {
+    vertical-align: middle;
+    position: relative;
+    margin-bottom: 2px;
+    display: none;
+  }
+  #titlerow {
+    /*background-color:#FFF;*/
+    background-color: rgba(248, 248, 248, 0.85);
+    margin: 1px;
+    /*display: none;*/
+  }
+  
+  /******/
+  .btnDesabilitado{
+  border-color:silver !important;
+  color:silver !Important;
+  }
+  
+  #loadingModal {
+    background: #0003;
+    display:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+  
+  .contentModal{
+    top: 150px;
+    left: 0;
+    margin: 150px auto;
+    width: 300px;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    font-style: italic;
+  }
+  
+  .imgModal{
+    width: 20px;
+    padding-top: 20px;
+  }
+  /*
+  #modal table{
+    width: 100%;
+  }
+  #modal table, 
+  #modal td, 
+  #modal th {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 6px 12px;
+  }
+  #modal th {
+    background: #bfbfbf;
+  }*/
+  
+  table#actasFirma, table#actasRelacion {
+    border: 0px solid;
+  }
+  
+  #actasFirma td, #actasRelacion td{
+    border: 0px solid !important;
+  }
+  
+  .col-ValorDatosMaestros{
+  text-align: right;
+  }
+  
+  #actaEncabezado #titlePDF{
+      text-align: center;
+  }
+  
+  #actaEncabezado #titlePDF img{
+      width: 60px;
+  }
+  
+  .divFiltro {
+    width: 20%;
+    float: left;
+  }
+  
+  #sec-contenido h1{
+    text-align: center;
+    font-weight: 700;
+    padding: 5px 0px;
+  }
+  
+  .svgBtn{
+    cursor: pointer !important;
+  }
+  
+  .nombreCampo{
+    font-weight: 700;
+  }
+  
+  div#formDatos .campoMasivo {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  input.btn2.active {
+    background: #CD1D1F;
+    color: #fff;
+  }
+  
+  
+  .iconAdjunto:hover > .modalTitle{
+    display: block;
+  }
+  
+  .modalTitle{
+    position: absolute;
+    background: #575757;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    display:none;
+  }
+  
+
+  table#tablaAproFacturacion, td, th {
+    border: 1px solid;
+  }
+  
+  table#tablaAproFacturacion {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .dataTables_filter{
+    margin-bottom: 10px;
+  }
+  .ms-Dropdown{
+    box-shadow: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(50, 49, 48);
+    border-color: rgb(96, 94, 92);
+    position: relative;
+    outline: 0px;
+    user-select: none;
+  }
+
+  .labelDropdown{
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(50, 49, 48);
+    box-sizing: border-box;
+    box-shadow: none;
+    margin: 0px;
+    display: inline-block;
+    padding: 5px 0px;
+    overflow-wrap: break-word;
+  }
+  .slcDropdown{
+    box-shadow: none !important;
+    margin: 0px !important;
+    padding: 0px 28px 0px 8px !important;
+    box-sizing: border-box !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(96, 94, 92) !important;
+    border-radius: 2px !important;
+    cursor: pointer !important;
+    display: block !important;
+    height: 32px !important;
+    line-height: 30px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+  }
+  .inputText {
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    box-shadow: none !important;
+    margin: 0px !important;
+    padding: 0px 8px !important;
+    box-sizing: border-box !important;
+    border-radius: 0px !important;
+    border: none !important;
+    background: none transparent !important;
+    color: rgb(50, 49, 48) !important;
+    width: 100% !important;
+    min-width: 0px !important;
+    text-overflow: ellipsis !important;
+    outline: 0px !important;
+  }
+  .inputBorder{
+    border: 1px solid #000 !important;
+    border-radius: 2px !important;
+  }
+  .centerButtons{
+    text-align: center;
+    width: 100%;
+  }
+  .centerButtons input[type=button]{
+    margin-right: 10px;
+  }
+  .marginRight10 input[type=button]{
+    margin-right: 10px;
+  }
+  .content-modal{
+    padding: 12px;
+  }
+  .altura{
+    min-height: 800px;
+  }
+  td.fondoColor {
+    background: #e03224;
+    color: white;
+  }
+table#tablaAproFacturacion,
+.tablaAproFacturacion {
+  width: 100%;
+  border-collapse: collapse;
+}
+div#workbenchPageContent {
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+.content-modal {
+padding: 20px;
+}
+
+table#tablaAproFacturacion thead,
+.tablaAproFacturacion thead{
+  background: #e03224;
+}
+
+table#tablaAproFacturacion th,
+.tablaAproFacturacion th{
+  padding: 10px 22px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #fff;
+  border: 1px solid #515151;
+}
+
+table#tablaAproFacturacion td ,
+.tablaAproFacturacion td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #515151;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.tablaAproFacturacion td.textRight {
+  text-align: right;
+}
+
+.tablaAproFacturacion td.textCenter{
+  text-align: center;
+}
+
+.tdCenter{
+  text-align: center !important;
+}
+
+.tdRight{
+  text-align: right !important;
+}
+#tablePDFAprobacion{
+  width: 100%;
+  text-align: left;
+}
+
+table#tablePDFHead {
+  width: 100%;
+  text-align: left;
+}
+table.noBorder th, table.noBorder td{
+  border: none !important;
+}
+div#ListError {
+  height: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+  text-align: left;
+  padding: 0 50px;
+}
+
+svg.bi.bi-x-lg.margin5 {
+  margin:0 5px;
+}
+
+
+.OcultarButton{
+  display: none !important;
+}
+
+section h2{
+  color: #dc3545;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tco-logistica-inversa-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tcoLogisticaInversa/TcoLogisticaInversaWebPart.js",
+          "manifest": "./src/webparts/tcoLogisticaInversa/TcoLogisticaInversaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TcoLogisticaInversaWebPartStrings": "lib/webparts/tcoLogisticaInversa/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

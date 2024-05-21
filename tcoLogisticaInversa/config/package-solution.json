@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tco-logistica-inversa-client-side-solution",
+    "id": "959c099f-f94b-4f6a-85ac-7bb642b193c1",
+    "version": "1.0.2.7",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TCO-LogisticaInversa description"
+      },
+      "longDescription": {
+        "default": "TCO-LogisticaInversa description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "tco-logistica-inversa Feature",
+        "description": "The feature that activates elements of the tco-logistica-inversa solution.",
+        "id": "78c47233-7890-4cb6-b002-ecd6f043bb9e",
+        "version": "1.0.2.7"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tco-logistica-inversa.sppkg"
+  }
+}

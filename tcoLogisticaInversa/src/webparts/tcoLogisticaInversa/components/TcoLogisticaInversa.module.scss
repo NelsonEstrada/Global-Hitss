@@ -1,0 +1,88 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.spFxLogisticaInversa {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+
+
+:global {
+  #workbenchPageContent,
+  .CanvasComponent.LCS .CanvasZone {
+    max-width: 100% !important;
+  }
+
+  .spLeftNav, #titlerow, #pageContentTitle {
+    display: none !important;
+  }
+
+  .ms-webpartPage-root{
+    border-spacing: 0px !important;
+  }
+  .contentwrapper{
+    margin: 0px !important;
+  }
+
+
+  #contentBox{
+    padding: 0px !important;
+  }
+
+  .ms-List-cell:nth-child(even) .ms-DetailsRow {
+    background: #EEE;
+  }
+
+  h2 {
+    color: #dc3545;
+  }
+
+  .menuButton{
+    border-radius: 5px;  
+    box-shadow: 0 3px 6px #00000029;
+    border: 2px solid #dc3545;
+    background-color: #fff;
+    color:#dc3545;
+    font-weight: 500;
+    padding: 12px;
+    width: 100%;
+}
+.menuButton:hover {
+  border-radius: 5px;  
+  box-shadow: 0 3px 6px #00000029;
+  border: 2px solid #dc3545;
+  background-color: #dc3545;
+  color:#fff;
+  font-weight: 500;
+  padding: 12px;
+  width: 100%;
+}
+}

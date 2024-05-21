@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.2",
+    "libraryName": "tco-logistica-inversa",
+    "libraryId": "959c099f-f94b-4f6a-85ac-7bb642b193c1",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "TCO-LogisticaInversa",
+    "solutionShortDescription": "TCO-LogisticaInversa description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
