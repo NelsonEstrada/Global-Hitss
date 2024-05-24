@@ -210,11 +210,9 @@ export default class GestionCampañas extends React.Component<IGestionCampañasP
 
   private createLineaXCampaña(pos:number, Lineas:any, item:any){
 
-    Lineas[pos].array.forEach((element1:any) => {
-
-      var NombreLinea = element1.NombreLinea
+      var NombreLinea = Lineas[pos].NombreLinea
       
-      element.Servicio.array.forEach((element:any, index:number) => {
+      Lineas[pos].Servicio.forEach((element:any, index:number) => {
       
         var data = {
           Title: NombreLinea,
@@ -223,27 +221,28 @@ export default class GestionCampañas extends React.Component<IGestionCampañasP
           ClienteId:parseInt(this.state.idCliente),
           FechaInicio:new Date(this.state.FechaInicio).toISOString(),
           FechaFin:new Date(this.state.FechaFin).toISOString(),
-          Presupuesto:parseFloat(element.Presupuesto);,
+          Presupuesto:parseFloat(element.Presupuesto),
           CantidadContratados:parseFloat(element.Contratados),
           [element.Title]:this.state.Servicios['Servicio'+element.Title] ? 'SI' : 'NO'
         }
 
-        this.Helpers.insertItemList('RCILISTLineasCampaas', data)
+        this.Helpers.insertItemList('RCILISTLineasCampanias', data)
         .then((res:any)=>{
 
-          if(this.state.Productos.length-1 == pos){
-            if(element.Servicio.length-1 == index){
+          if(Lineas[pos].Servicio.length-1 == index){
+
+            if(Lineas.length-1 == pos){
               this.Close();
             }else{
-              this.createLineaXCampaña(pos+1, Productos, item)
+              this.createLineaXCampaña(pos+1, Lineas, item)
             }
+
           }
+          
 
         })
 
       });
-
-    });
 
   }
 
